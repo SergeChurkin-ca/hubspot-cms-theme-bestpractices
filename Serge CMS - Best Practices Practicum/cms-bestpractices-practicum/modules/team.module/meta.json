@@ -1,6 +1,6 @@
 {
-  "global" : false,
-  "host_template_types" : [ "PAGE" ],
-  "module_id" : 113300809314,
-  "is_available_for_new_content" : true
+    "global": false,
+    "host_template_types": ["PAGE"],
+    "module_id": 110687002960,
+    "is_available_for_new_content": true
 }

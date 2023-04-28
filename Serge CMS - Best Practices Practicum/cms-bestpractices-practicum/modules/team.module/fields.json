@@ -1,1 +1,268 @@
-[ ]
+[{
+    "id": "3cea0d49-14b9-1b03-fdfc-24573bb19b26",
+    "name": "field_group",
+    "display_width": null,
+    "label": "Field group",
+    "required": false,
+    "locked": false,
+    "children": [{
+        "id": "80b48414-1934-f0ae-8aeb-6fc431fa11f6",
+        "name": "field_group_1",
+        "display_width": null,
+        "label": "Field group",
+        "required": false,
+        "locked": false,
+        "occurrence": {
+            "min": 3,
+            "max": 6,
+            "sorting_label_field": null,
+            "default": 6
+        },
+        "children": [{
+            "id": "2ae3f335-da3c-18cc-74d0-d72dffe5b57e",
+            "name": "description",
+            "display_width": null,
+            "label": "Description",
+            "required": false,
+            "locked": false,
+            "type": "richtext",
+            "default": "Property Locations"
+        }, {
+            "id": "13e0def6-ff4f-820f-a208-f91414c517f5",
+            "name": "image_field",
+            "display_width": null,
+            "label": "Image",
+            "required": false,
+            "locked": false,
+            "occurrence": {
+                "min": 1,
+                "max": 1,
+                "sorting_label_field": null,
+                "default": 1
+            },
+            "responsive": true,
+            "resizable": true,
+            "show_loading": false,
+            "type": "image",
+            "default": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }],
+        "tab": "CONTENT",
+        "expanded": false,
+        "type": "group",
+        "default": [{
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }]
+    }],
+    "tab": "CONTENT",
+    "expanded": false,
+    "type": "group",
+    "default": {
+        "field_group_1": [{
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }, {
+            "description": "Property Locations",
+            "image_field": [{
+                "size_type": "auto",
+                "src": "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+                "alt": "eugen-sacali-a3ZZ582uliw-unsplash-1",
+                "loading": "lazy",
+                "width": 4115,
+                "height": 6172,
+                "max_width": 4115,
+                "max_height": 6172
+            }]
+        }]
+    }
+}, {
+    "id": "f1c47046-4650-3eb8-7969-648a05fe546c",
+    "name": "header_font_size",
+    "display_width": null,
+    "label": "Header Font Size",
+    "required": false,
+    "locked": false,
+    "display": "text",
+    "min": 8,
+    "max": 60,
+    "step": 2,
+    "prefix": "font-size:",
+    "suffix": "px",
+    "type": "number",
+    "default": 38
+}, {
+    "id": "f1faf4a0-6c52-1c16-0e5e-80974a0618cc",
+    "name": "card_font_size",
+    "display_width": null,
+    "label": "Card font size",
+    "required": false,
+    "locked": false,
+    "display": "text",
+    "min": 8,
+    "max": 60,
+    "step": 2,
+    "prefix": "font-size:",
+    "suffix": "px",
+    "type": "number",
+    "default": 16
+}, {
+    "id": "cc252cbd-12c0-9e08-809c-1f1d6d2f12ca",
+    "name": "text_color",
+    "display_width": null,
+    "label": "Card text color",
+    "required": false,
+    "locked": false,
+    "show_opacity": true,
+    "type": "color",
+    "default": {
+        "color": "#fff",
+        "opacity": 100
+    }
+}, {
+    "id": "1b83e67e-619f-86c8-46fd-b5a625464730",
+    "name": "details_bg_color",
+    "display_width": null,
+    "label": "Details bg color",
+    "required": false,
+    "locked": false,
+    "type": "color",
+    "default": {
+        "color": "#3457D5",
+        "opacity": 100
+    }
+}]
