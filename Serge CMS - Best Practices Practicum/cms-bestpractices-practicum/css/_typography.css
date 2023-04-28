@@ -1,0 +1,46 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700;800;900&family=Lato:wght@400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+
+}
+h1, h2, h3, h4, h5 {
+  font-weight: 900;
+  font-family: {{ theme.headline_font.font }};
+}
+
+a {
+  text-decoration: none;
+  color: {{ theme.link_color.color }};
+  font-family: {{ theme.copy_font.font }};
+}
+
+.header p, .header li, .header span,
+.mission-section p, .mission-section li, .mission-section span {
+  color: {{ theme.text_color.color }};
+  font-family: {{ theme.copy_font.font }};
+}
+.details p {
+  font-weight: 900;
+  font-family: {{ theme.copy_font.font }};
+}
+
+footer {
+  color: {{ theme.footer_txt_color.color }};
+  font-family: {{ theme.footer_font.font }};
+}
