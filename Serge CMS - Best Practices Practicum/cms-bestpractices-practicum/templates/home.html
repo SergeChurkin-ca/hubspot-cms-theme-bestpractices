@@ -1,0 +1,24 @@
+<!--
+templateType: page
+isAvailableForNewContent: true
+label: CMS Practicum - Best Practices
+-->
+
+{% extends "./layouts/base.html" %}
+{% block body %}
+<main class="main" id="main">
+
+	<section>
+		{% dnd_area 'dnd_area1' label="Main Content" %}
+		{% include_dnd_partial path="../sections/hero.html" with context={"background_color": "#000"} %}
+		{% end_dnd_area %}
+	</section>
+	<section>
+		{% dnd_area 'dnd_area2' label="Team Members" %}
+		{% include_dnd_partial path="../sections/team-members.html" %}
+		{% end_dnd_area %}
+	</section>
+
+</main>
+{% endblock body %}
+
