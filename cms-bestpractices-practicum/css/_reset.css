@@ -1,0 +1,11 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+img, video, canvas {
+  overflow: auto !important;
+  overflow-clip-margin: content-box;
+
+}

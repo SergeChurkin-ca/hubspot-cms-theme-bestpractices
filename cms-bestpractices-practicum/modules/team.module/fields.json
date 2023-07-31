@@ -1,0 +1,367 @@
+[ {
+  "id" : "c4016a5f-83fc-e4bc-bdaa-158e7e6dccc6",
+  "name" : "section_header",
+  "display_width" : null,
+  "label" : "section_header",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "Our Team"
+}, {
+  "id" : "3cea0d49-14b9-1b03-fdfc-24573bb19b26",
+  "name" : "field_group",
+  "display_width" : null,
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "visibility" : {
+    "controlling_field" : null,
+    "controlling_field_path" : null,
+    "controlling_value_regex" : null,
+    "property" : null,
+    "operator" : "NOT_EMPTY",
+    "access" : null
+  },
+  "children" : [ {
+    "id" : "80b48414-1934-f0ae-8aeb-6fc431fa11f6",
+    "name" : "field_group_1",
+    "display_width" : null,
+    "label" : "Field group",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : 3,
+      "max" : 6,
+      "sorting_label_field" : null,
+      "default" : 6
+    },
+    "children" : [ {
+      "id" : "2ae3f335-da3c-18cc-74d0-d72dffe5b57e",
+      "name" : "description",
+      "display_width" : null,
+      "label" : "Description",
+      "required" : false,
+      "locked" : false,
+      "occurrence" : {
+        "min" : null,
+        "max" : null,
+        "sorting_label_field" : null,
+        "default" : null
+      },
+      "type" : "richtext",
+      "default" : "Team Member"
+    }, {
+      "id" : "13e0def6-ff4f-820f-a208-f91414c517f5",
+      "name" : "image_field",
+      "display_width" : null,
+      "label" : "Image",
+      "required" : false,
+      "locked" : false,
+      "occurrence" : {
+        "min" : 1,
+        "max" : 1,
+        "sorting_label_field" : null,
+        "default" : 1
+      },
+      "responsive" : true,
+      "resizable" : true,
+      "show_loading" : false,
+      "type" : "image",
+      "default" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : [ {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    } ]
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "field_group_1" : [ {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    }, {
+      "description" : "Team Member",
+      "image_field" : [ {
+        "size_type" : "auto",
+        "src" : "https://cdn2.hubspot.net/hubfs/24339706/eugen-sacali-a3ZZ582uliw-unsplash-1.jpg",
+        "alt" : "team member",
+        "loading" : "lazy",
+        "width" : 4115,
+        "height" : 6172,
+        "max_width" : 4115,
+        "max_height" : 6172
+      } ]
+    } ]
+  }
+}, {
+  "id" : "a282d69c-e0e2-424b-cfee-13c6845fd11c",
+  "name" : "section",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "9db322bf-98d8-e2bd-1340-a19ac7265a87",
+    "name" : "section_margin",
+    "display_width" : null,
+    "label" : "Section Margin",
+    "help_text" : "Section Margin Top/Btm",
+    "inline_help_text" : "Section Margin Top/Btm",
+    "required" : false,
+    "locked" : false,
+    "type" : "spacing",
+    "default" : {
+      "margin" : {
+        "top" : {
+          "value" : 15,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 15,
+          "units" : "px"
+        }
+      }
+    }
+  }, {
+    "id" : "a46bae67-47f4-3bfb-b26b-cfa48b1e351f",
+    "name" : "header_font_size",
+    "display_width" : null,
+    "label" : "Header font size",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "min" : 8,
+    "max" : 100,
+    "step" : 2,
+    "prefix" : "",
+    "suffix" : "px",
+    "type" : "number"
+  }, {
+    "id" : "c97ba9f1-c88a-a058-fcce-d5d462092af8",
+    "name" : "card_details",
+    "display_width" : null,
+    "label" : "Card Details",
+    "required" : false,
+    "locked" : false,
+    "children" : [ {
+      "id" : "f4895fdb-f576-ac34-376f-c7654dc6e0a6",
+      "name" : "card_font_size",
+      "display_width" : null,
+      "label" : "Card font size",
+      "required" : false,
+      "locked" : false,
+      "display" : "text",
+      "min" : 8,
+      "max" : 100,
+      "step" : 2,
+      "suffix" : "px",
+      "type" : "number"
+    }, {
+      "id" : "4ba7ab8f-b15f-0254-7816-e5bd7fae9080",
+      "name" : "card_text_color",
+      "display_width" : null,
+      "label" : "Card Text Color",
+      "required" : false,
+      "locked" : false,
+      "show_opacity" : true,
+      "type" : "color",
+      "default" : {
+        "color" : "#fff",
+        "opacity" : 100
+      }
+    }, {
+      "id" : "03df5e25-1766-c0ed-ecfd-e10585a7a639",
+      "name" : "card_bg_color",
+      "display_width" : null,
+      "label" : "Card Bg Color",
+      "required" : false,
+      "locked" : false,
+      "show_opacity" : true,
+      "type" : "color",
+      "default" : {
+        "color" : "#3457D5",
+        "opacity" : 100
+      }
+    } ],
+    "tab" : "STYLE",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "card_text_color" : {
+        "color" : "#fff",
+        "opacity" : 100
+      },
+      "card_bg_color" : {
+        "color" : "#3457D5",
+        "opacity" : 100
+      }
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "section_margin" : {
+      "margin" : {
+        "top" : {
+          "value" : 15,
+          "units" : "px"
+        },
+        "bottom" : {
+          "value" : 15,
+          "units" : "px"
+        }
+      }
+    },
+    "card_details" : {
+      "card_text_color" : {
+        "color" : "#fff",
+        "opacity" : 100
+      },
+      "card_bg_color" : {
+        "color" : "#3457D5",
+        "opacity" : 100
+      }
+    }
+  }
+} ]

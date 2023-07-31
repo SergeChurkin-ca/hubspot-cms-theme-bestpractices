@@ -1,0 +1,55 @@
+<div class="three-cols-module" style="{{ module.section.section_margin.css }}">
+
+	<h2 style="font-size: {{ module.section.header_font_size }}px">
+		{% inline_rich_text field="section_header" value="{{ module.section_header }}" %}
+	</h2>
+
+	<div class="three-cols">
+
+		{% set counter = 0 %}
+
+		{% for item in module.field_group.field_group_1 %}
+		{% set counter = counter + 1 %}
+
+		<div class="column">
+
+			<div id="details-{{ counter }}" class="details">
+				<p style="color: {{ module.section.card_details.card_text_color.color }}" >
+					{% inline_rich_text field="description" value="{{ item.description }}" id="{{ description_id }}-{{counter}}" no_wrapper=True %}
+				</p>
+			</div>
+
+			<div id="image-container-{{ counter }}" class="image-container">
+				{% for item2 in item.image_field %}
+				{% if item2.src %}
+				{% set sizeAttrs = 'width="{{ item2.width }}" height="{{ item2.height }}"' %}
+				{% if item2.size_type == 'auto' %}
+				{% set sizeAttrs = 'width="{{ item2.width }}" height="{{ item2.height }}" style="max-width: 100%; height: auto;"' %}
+				{% elif item2.size_type == 'auto_custom_max' %}
+				{% set sizeAttrs = 'width="{{ item2.max_width }}" height="{{ item2.max_height }}" style="max-width: 100%; height: auto;"' %}
+				{% endif %}
+				{% set loadingAttr = item2.loading != 'disabled' ? 'loading="{{ item2.loading }}"' : '' %}
+				<img srcset="{{ resize_image_url(item2.src, 200) }} 200w, {{ resize_image_url(item2.src, 400) }} 400w" 
+						 alt="{{ item2.alt }}" {{ loadingAttr }} {{ sizeAttrs }} >
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+		{% endfor %}
+
+	</div>
+</div>
+
+{% require_css %}
+<style>
+	{% scope_css %}
+	.details {
+		color: {{ module.section.card_details.card_text_color.color }};
+		opacity: {{ module.section.card_details.card_text_color.opacity }};
+		background-color: {{ module.section.card_details.card_bg_color.color }};
+		opacity: {{ module.section.card_details.card_bg_color.opacity / 100 }};
+		font-size: {{ module.section.card_details.card_font_size }}px;
+	}
+	{% end_scope_css %} 
+</style>
+{% end_require_css %}

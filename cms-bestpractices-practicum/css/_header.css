@@ -1,0 +1,48 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+.nav  {
+	background-color: {{ theme.nav_bg_color.color }};
+	width: 90vw;
+	margin: 0 auto;
+}
+.nav ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1.5rem;
+	padding: 0.25rem 0 1rem 0;
+}
+
+.nav a {
+	color: {{ theme.navlinks_text_color.color }};
+	opacity: 1;
+}
+header {
+	margin: 0 auto;
+}
+.header-container {
+	background-color: {{ theme.header_bg_color.color }};
+	padding: 4rem 3rem 6rem;
+}
+header .inner-container {
+	margin: 0 auto;
+	max-width: {{ theme.header_max_width }}px;
+}
+.header-container h1, 
+.header-container h2, 
+.header-container h3, 
+.header-container h4,
+.header-container h5,
+.header-container p, 
+.header-container li, 
+.header-container span {
+	color: {{ theme.header_txt_color.color }};
+}

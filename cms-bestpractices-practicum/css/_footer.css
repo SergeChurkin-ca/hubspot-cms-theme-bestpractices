@@ -1,0 +1,33 @@
+/* @import url('http://example.com/example_style.css'); */
+
+/***********************************************/
+/* CSS @imports must be at the top of the file */
+/* Add them above this section                 */
+/***********************************************/
+
+/*****************************************/
+/* Start your style declarations here    */
+/*****************************************/
+
+footer {
+  background-color: {{ theme.footer_bg_color.color }};
+  color: {{ theme.footer_txt_color }};
+	font-size: {{ theme.footer_font.size }}px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  margin: 0 0.2rem;
+}
+
+footer .container {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  gap: 0.75rem 0rem;
+}

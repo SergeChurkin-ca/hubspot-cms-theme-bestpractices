@@ -1,0 +1,14 @@
+{% simple_menu menu_tree="{{ module.simplemenu_field }}" %}
+
+{% require_css %}
+<style>
+	{% scope_css %}
+	li {
+		list-style: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	{% end_scope_css %} 
+</style>
+{% end_require_css %}

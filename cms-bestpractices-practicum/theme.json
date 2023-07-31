@@ -1,0 +1,11 @@
+{
+  "label" : "cms-bestpractices-practicum",
+  "preview_path" : ".templates/home.html",
+  "screenshot_path" : null,
+  "enable_domain_stylesheets" : false,
+  "is_available_for_new_content" : true,
+  "author" : {
+    "name" : "Serge Churkin",
+    "email" : "sergechurkin@gmail.com"
+  }
+}
